@@ -1,0 +1,16 @@
+.gallery-section{
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 44px;
+        margin: 44px 0 44px 0;
+    }
+    &__img-container{
+        display: flex;
+        gap: 33px;
+    }
+    &__img{
+        border-radius: 12px;
+    }
+}

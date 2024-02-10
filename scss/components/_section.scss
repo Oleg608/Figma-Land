@@ -1,0 +1,17 @@
+.section{
+    padding: 50px 50px;
+    text-align: center;
+
+    &__title{
+        font-size: 52px;
+        font-weight: 400;
+        padding-top: 50px;
+    }
+    &__text{
+        font-size: 20px;
+        font-weight: 400;
+        max-width: 550px;
+        margin: 0 auto;
+        padding-bottom: 50px;
+    }
+}

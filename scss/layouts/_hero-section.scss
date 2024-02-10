@@ -1,0 +1,39 @@
+.hero-section{
+    &__title{
+        font-weight: 500;
+        font-size: 80px;
+        line-height: 1;
+        max-width: 700px;
+        margin: 0 auto;
+        padding-top: 85px;
+    }
+    &__buttons{
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+        margin: 35px 0;
+    }
+    &__img-container{
+        position: relative;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 95%);
+        height: 800px;
+        margin: 0 -50px;
+    }
+    &__img-item{
+        position: absolute;
+        height: 430px;
+        z-index: -100;
+        &.first{
+            top: 0;
+            left: 30%;
+        }
+        &.second{
+            top: 29%;
+            left: 9%;
+        }
+        &.third{
+            top: 27%;
+            left: 51.5%;
+        }
+    }
+}

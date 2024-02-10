@@ -1,0 +1,43 @@
+.footer{
+    &__container{
+        display: flex;
+        justify-content: center;
+        gap: 200px;
+        padding: 100px 0;
+    }
+    &__nav{
+        display: flex;
+        gap: 75px;
+    }
+    &__info-title{
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+    &__info{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__link-container{
+        display: flex;
+        align-items: center;
+    }
+    &__icon-map{
+        width: 45px;
+        height: 45px;
+    }
+    &__icon-phone{
+        width: 32px;
+        height: 32px;
+    }
+    &__address-container{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+    &__address-icons{
+        display: flex;
+        gap: 24px;
+    }
+}

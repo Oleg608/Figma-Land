@@ -1,0 +1,16 @@
+.subsection{
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        gap: 36px;
+        border-radius: 33px;
+        background-color: var(--secondary-dark-background-color);
+    }
+    &__title{
+        max-width: 470px;
+        margin-left: 50px;
+    }
+    &__img{
+        border-radius: 0 0 33px 0;
+    }
+}

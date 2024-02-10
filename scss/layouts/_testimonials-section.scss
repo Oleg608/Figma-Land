@@ -1,0 +1,39 @@
+.testimonials-section{
+    &__container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 23px;
+    }
+    &__item{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 430px;
+        border: 1px var(--border-color) solid;
+        border-radius: 10px;
+        padding: 40px;
+    }
+    &__client-container{
+        display: flex;
+        gap: 20px;
+    }
+    &__name{
+        margin-bottom: 5px;
+        text-align: left;
+    }
+    &__position{
+        text-align: left;
+        margin: 0;
+    }
+    &__text{
+        text-align: left;
+        max-width: 300px;
+    }
+    &__img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+    
+}
