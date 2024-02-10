@@ -9,6 +9,14 @@
     &__img-container{
         display: flex;
         gap: 33px;
+        &:not(:first-child){
+            @media screen and (max-width:$bp-mobile){
+                display: none;
+            }
+        }
+        @media screen and (max-width:$bp-mobile){
+            flex-direction: column;   
+        }
     }
     &__img{
         border-radius: 12px;

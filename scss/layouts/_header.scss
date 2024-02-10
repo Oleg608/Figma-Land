@@ -3,8 +3,7 @@
     &__container{
         display: flex;
         align-items: center;
-        justify-content: center;
-        gap: 116px;
+        justify-content: space-between;
         width: 100%;
     }
     &__logo{
@@ -17,5 +16,27 @@
         align-items: center;
         gap: 30px;
         padding: 37px 0;
+        @media screen and (max-width:$bp-mobile){
+            display: none;
+        }
+    }
+    &__buttons-container{
+        display: flex;
+        gap: 10px;
+    }
+    &__mobile-menu-btn-open{
+        display: none;
+        @media screen and (max-width:$bp-mobile){
+            display: block;
+            width: 66px;
+            height: 53px;
+            background-color: transparent;
+            border: none;
+        }
+    }
+    &__button{
+        @media screen and (max-width:$bp-mobile){
+            padding: 0 20px;
+        } 
     }
 }

@@ -19,10 +19,27 @@
                     <li><a class="link" href="#">About</a></li>
                     <li><a class="link" href="#">Contact</a></li>
                 </ul>
-                <button class="dark-button" type="button">Login</button>
+                <div class="header__buttons-container">
+                    <button class="dark-button header__button" type="button">Login</button>
+                    <button class="header__mobile-menu-btn-open js-mobile-menu-btn-open" type="button">
+                        <img src="./img/mobile-menu-btn-open.png" alt="mobile-menu-btn-open">
+                    </button>
+                </div>
             </div>
         </div>
     </header>
+    <div class="mobile-menu">
+        <div class="mobile-menu__container">
+            <img class="mobile-menu__logo" src="./img/logo.png" alt="logo">
+            <img class="mobile-menu__mobile-menu-btn-close js-mobile-menu-btn-close" src="./img/close-menu-icon.png" alt="close-btn-icon">
+            <ul class="mobile-menu__links">
+                <li><a class="link" href="#">Home</a></li>
+                <li><a class="link" href="#">Product</a></li>
+                <li><a class="link" href="#">About</a></li>
+                <li><a class="link" href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
     <main>
         <section class="hero-section section">
             <div class="container">
@@ -257,5 +274,6 @@
             </div>
         </div>      
     </footer>
+    <script src="./js/burger-menu.js"></script>
 </body>
 </html>

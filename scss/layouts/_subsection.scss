@@ -5,12 +5,25 @@
         gap: 36px;
         border-radius: 33px;
         background-color: var(--secondary-dark-background-color);
+        @media screen and (max-width:$bp-mobile){
+         flex-direction: column;
+         background-color: transparent;   
+        }
     }
     &__title{
         max-width: 470px;
         margin-left: 50px;
+        @media screen and (max-width:$bp-mobile){
+            font-size: 48px;
+            margin: 0 auto; 
+            margin-bottom: 40px;  
+        }
     }
     &__img{
         border-radius: 0 0 33px 0;
+        @media screen and (max-width:$bp-mobile){
+         border-radius: 0; 
+         background-image: url();  
+        }
     }
 }

@@ -4,10 +4,17 @@
         justify-content: center;
         gap: 200px;
         padding: 100px 0;
+        @media screen and (max-width:$bp-mobile){
+         flex-direction: column;  
+         gap: 75px; 
+        }
     }
     &__nav{
         display: flex;
         gap: 75px;
+        @media screen and (max-width:$bp-mobile){
+         flex-direction: column;   
+        }
     }
     &__info-title{
         font-size: 20px;

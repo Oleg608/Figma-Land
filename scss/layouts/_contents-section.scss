@@ -3,5 +3,8 @@
         display: flex;
         justify-content: center;
         gap: 33px;
+        @media screen and (max-width: $bp-mobile){
+            flex-direction: column;
+        }
     }
 }

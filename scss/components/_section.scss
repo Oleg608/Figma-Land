@@ -1,6 +1,9 @@
 .section{
     padding: 50px 50px;
     text-align: center;
+    @media screen and (max-width: $bp-mobile){
+        padding: 30px 30px;
+    }
 
     &__title{
         font-size: 52px;

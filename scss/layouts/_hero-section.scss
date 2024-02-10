@@ -6,23 +6,39 @@
         max-width: 700px;
         margin: 0 auto;
         padding-top: 85px;
+        @media screen and (max-width:$bp-mobile){
+            font-size: 52px;
+            margin-bottom: 10px;
+        }
     }
     &__buttons{
         display: flex;
         justify-content: center;
         gap: 35px;
         margin: 35px 0;
+        @media screen and (max-width:$bp-mobile){
+            flex-direction: column;
+            display: inline-flex;
+        }
     }
     &__img-container{
         position: relative;
         background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 95%);
         height: 800px;
         margin: 0 -50px;
+        @media screen and (max-width:$bp-mobile){
+            height: 450px;
+         background-image: url(../../img/screen.png);   
+        }
     }
     &__img-item{
         position: absolute;
         height: 430px;
         z-index: -100;
+        @media screen and (max-width:$bp-mobile){
+         display: none;
+         background-repeat: no-repeat;   
+        }
         &.first{
             top: 0;
             left: 30%;

@@ -3,6 +3,9 @@
         display: flex;
         gap: 55px;
         position: relative;
+        @media screen and (max-width: $bp-mobile){
+            flex-direction: column;
+        }
     }
     &__images-container{
         margin-top: 30px;
@@ -14,6 +17,12 @@
         height: 276px;
         top: 490px;
         left: 360px;
+        @media screen and (max-width: $bp-mobile){
+            width: 232px;
+            height: 160px;
+            top: 230px;
+            left: 30px;
+        }
     }
     &__list{
         margin-top: 130px;
